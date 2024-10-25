@@ -1,7 +1,12 @@
+//WITH ERROR - This test case includes function call with incorrect number of parameters during call
 #include<stdio.h>
-void func()
+int func(int a, int b)
 {
-return 5;
+	return a+b;
 }
 void main()
-{}
+{
+	int a = 1;
+	int x;
+	x = func(a);
+}

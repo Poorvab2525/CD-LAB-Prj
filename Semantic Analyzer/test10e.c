@@ -1,7 +1,8 @@
+//WITH ERROR - This test case includes if condition not of type int
 #include<stdio.h>
-int x;
-int main()
+void main()
 {
-        x();
-        return 0;
+	float x = 1.0;
+	if(x)
+		print("hello\n");
 }

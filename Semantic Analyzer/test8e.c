@@ -1,13 +1,11 @@
+//WITH ERROR - This test case includes int return for void function
 #include<stdio.h>
-int foo()
+void func()
 {
-        return 1;
-}
-int foo()
-{
-        return 2;
+	printf("hello\n");
+	return 0;
 }
 void main()
 {
-foo();
+	func();
 }
