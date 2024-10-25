@@ -1,20 +1,11 @@
+//WITH ERROR - This test case includes duplicate declaration of identifier
 #include<stdio.h>
 
-
-
-
-
-
-
-
-void foo(void);  // Correct: Parameter list with void
-void foo(void x);  // Error: Function parameter cannot be of type 'void'
 void main()
 {
-
-
-
-
+	int a = 1;
+	int a = 2;
+	printf("%d", a);
+	
 }
-
 

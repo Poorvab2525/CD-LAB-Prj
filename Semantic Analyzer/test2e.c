@@ -1,6 +1,9 @@
+//WITH ERROR - This test case includes array size less than 1
 #include<stdio.h>
-void foo(int a, int b) {}
-int main() {
-    foo(1);  // Error: Too few arguments (expected 2)
-    return 0;
+
+void main()
+{
+	int a[0];
+	printf("hello\n");
+	
 }

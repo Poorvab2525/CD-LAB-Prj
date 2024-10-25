@@ -1,50 +1,10 @@
-//modifiers
-//arithmetic operation
-
-//logical operations
-
-
+//WITH ERROR - This test case includes void parameter for function
 #include<stdio.h>
-int la = 1;
-int func(int var) {
-    return 1;
-}
-
-
-int las() {
-    int p = 9;
-    return p;
-}
-
-
-int main()
+void func(void x)
 {
-    long int a, b;
-    unsigned long int x;
-    signed short int y;
-    signed short z;
-    int w;
-    a = 23;
-    a=20;
-    b = 15;
-    int c = a + b;
-    printf("%d",c);
-    c = a - b;
-    printf("%d",c);
-    c = a * b;
-    printf("%d",c);
-    c = a/b;
-    printf("%d",c)
-    c = a%b;
-    printf("%d",c);
-
-
-    c = (a>=b);
-    printf("%d",c);
-    c = (a<=b);
-    printf("%d",c);
-    c = (a==b);
-    printf("%d",c);
-    c = (a!=b);
-    printf("%d",c);
+	printf("hello\n");
+}
+void main()
+{
+	printf("hello\n");
 }

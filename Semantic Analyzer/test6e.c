@@ -1,12 +1,10 @@
+//WITH ERROR - This test case includes a function call to function declared after main
 #include<stdio.h>
-
-
-
-
-int foo() {
-    return;  // Error: 'int' function must return an integer value
-}
-
-
 void main()
-{}
+{
+	func();
+}
+void func()
+{
+	printf("hello\n");
+}
