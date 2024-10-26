@@ -403,7 +403,7 @@ void printConstantTable();
 
 int main()
 {
-	yyin = fopen("test2.c", "r");
+	yyin = fopen("test19e.c", "r");
 	yyparse();
 
 	if(flag == 0)
